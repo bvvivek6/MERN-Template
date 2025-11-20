@@ -6,7 +6,7 @@ This template provides a ready-to-use MERN stack starter with JWT-based authenti
 
 - Express + Mongoose backend
 - User model (name, email, password hash, role)
-- Auth routes: `POST /api/auth/signup`, `POST /api/auth/login`, `GET /api/auth/me`
+- Auth routes: `POST /api/v1/auth/signup`, `POST /api/v1/auth/login`, `GET /api/v1/auth/me`
 - JWT issuance (7 day expiry) & verification middleware
 - React client with Login / Signup pages and protected Dashboard
 - AuthContext for token & user management (stored in `localStorage`)
